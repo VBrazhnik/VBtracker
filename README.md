@@ -29,7 +29,8 @@
 
 <p style="clear:both"></p>
 
-### VBtracker is available on Google Play
+## VBtracker is available on Google Play
+
 <a href="https://play.google.com/store/apps/details?id=com.vb.tracker.free">
 <img border="0" alt="Google Play" src="/promo/google_play_badge.png" width="300">
 </a>
