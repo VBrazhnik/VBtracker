@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+
+    <path
+        android:strokeColor="?attr/colorAccent"
+        android:strokeWidth="14"
+        android:strokeMiterLimit="10"
+        android:pathData="M 493 349 L 493 494 L 7 494 L 7 349 " />
+    <path
+        android:strokeColor="?attr/colorAccent"
+        android:strokeWidth="14"
+        android:strokeMiterLimit="10"
+        android:pathData="M 250.5 8.6 L 250.5 337.9" />
+    <path
+        android:strokeColor="?attr/colorAccent"
+        android:strokeWidth="14"
+        android:strokeMiterLimit="10"
+        android:pathData="M 346.5 244.1 L 250.5 340.9" />
+    <path
+        android:strokeColor="?attr/colorAccent"
+        android:strokeWidth="14"
+        android:strokeMiterLimit="10"
+        android:pathData="M 153.5 244.1 L 250.5 340.9" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M250.5,337.9c-3,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5s5.5-2.5,5.5-5.5S253.5,337.9,250.5,337.9L250.5,337.9z" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M346.5,237c-3.9,0-7,3.2-7,7c0,3.9,3.2,7,7,7c3.9,0,7-3.2,7-7C353.6,240.2,350.4,237,346.5,237L346.5,237z" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M493,342c-3.9,0-7,3.2-7,7c0,3.9,3.2,7,7,7c3.9,0,7-3.2,7-7C500,345.1,496.9,342,493,342L493,342z" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M7,342c-3.9,0-7,3.2-7,7c0,3.9,3.2,7,7,7c3.9,0,7-3.2,7-7C14,345.1,10.9,342,7,342L7,342z" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M153.5,237c-3.9,0-7,3.2-7,7c0,3.9,3.2,7,7,7c3.9,0,7-3.2,7-7C160.5,240.2,157.4,237,153.5,237L153.5,237z" />
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:pathData="M250.5,1.6c-3.9,0-7,3.2-7,7c0,3.9,3.2,7,7,7c3.9,0,7-3.2,7-7C257.6,4.7,254.4,1.6,250.5,1.6L250.5,1.6z" />
+    <path
+        android:pathData="M 250 349 H 500 V 500 H 250 V 349 Z" />
+</vector>

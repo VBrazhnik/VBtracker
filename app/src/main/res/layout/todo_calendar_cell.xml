@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/todo_calendar_cell"
+    android:layout_width="51dp"
+    android:layout_height="51dp"
+    android:elevation="0dp"
+    >
+
+    <TextView
+        android:id="@+id/todo_calendar_cell_badge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|start|center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/todo_circle"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text=""
+        android:textColor="?attr/colorAccent"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/todo_calendar_cell_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textColor="?attr/colorAccent" />
+
+</FrameLayout>

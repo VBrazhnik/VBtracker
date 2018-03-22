@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="?attr/background"
+        android:orientation="vertical">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/todo_calendar_month"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/todo_calendar_month_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:background="?attr/background"
+                android:padding="10dp"
+                android:src="@drawable/month_back"
+                tools:ignore="contentDescription"/>
+
+            <TextView
+                android:id="@+id/todo_calendar_month_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:fontFamily="sans-serif-thin"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="?attr/colorAccent"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/todo_calendar_month_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:background="?attr/background"
+                android:padding="10dp"
+                android:src="@drawable/month_forward"
+                tools:ignore="contentDescription"/>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <LinearLayout
+            android:id="@+id/todo_calendar_weekday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/mon"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/tue"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/wed"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/thu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/thu"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/fri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/fri"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/sat"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="@string/sun"
+                android:textAllCaps="true"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/todo_calendar_cell_view_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/todo_calendar_cell_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/background"
+            android:isScrollContainer="false"
+            android:overScrollMode="never"
+            android:scrollIndicators="none"/>
+
+    </LinearLayout>
+
+</LinearLayout>

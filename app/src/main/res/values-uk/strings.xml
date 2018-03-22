@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mon">ПН</string>
+    <string name="tue">ВТ</string>
+    <string name="wed">СР</string>
+    <string name="thu">ЧТ</string>
+    <string name="fri">ПТ</string>
+    <string name="sat">СБ</string>
+    <string name="sun">НД</string>
+
+    <string name="january">Січень</string>
+    <string name="february">Лютий</string>
+    <string name="march">Березень</string>
+    <string name="april">Квітень</string>
+    <string name="may">Травень</string>
+    <string name="june">Червень</string>
+    <string name="july">Липень</string>
+    <string name="august">Серпень</string>
+    <string name="september">Вересень</string>
+    <string name="october">Жовтень</string>
+    <string name="november">Листопад</string>
+    <string name="december">Грудень</string>
+
+    <string name="agenda">Повістка Дня</string>
+    <string name="todo">Задачі</string>
+    <string name="routine">Рутина</string>
+    <string name="create_new">Створити</string>
+    <string name="setting">Налаштування</string>
+
+    <string name="done">Виконано</string>
+    <string name="undone">Відмінити</string>
+
+    <string name="name">Назва</string>
+    <string name="pick_date">Виберіть дату</string>
+    <string name="pick_start_date">Виберіть дату початку</string>
+    <string name="pick_end_date">Виберіть дату закінчення</string>
+    <string name="add_note_here">Нотатки…</string>
+
+    <string name="name_is_not_entered">Назва не введена</string>
+    <string name="date_is_not_selected">Дата не вибрана</string>
+    <string name="start_date_is_not_selected">Дата початку не вибрана</string>
+    <string name="end_date_is_not_selected">Дата закінчення не вибрана</string>
+    <string name="end_date_should_go_after_start_date">Дата закінчення повинна слідувати після дати початку</string>
+    <string name="weekdays_is_not_selected">Дні тижня не вибрані</string>
+
+    <string name="set_day_mode">Увімкнути денний режим</string>
+    <string name="set_night_mode">Увімкнути нічний режим</string>
+
+    <string name="password">Пароль</string>
+    <string name="enter_password">Введіть пароль</string>
+    <string name="password_wrong">Невірний пароль</string>
+
+    <string name="enable_password">Увімкнути пароль</string>
+    <string name="password_enabled">Пароль встановлений</string>
+
+    <string name="disable_password">Вимкнути пароль</string>
+    <string name="password_disabled">Пароль вимкнений</string>
+
+    <string name="change_password">Змінити пароль</string>
+    <string name="enter_current_password">Введіть поточний пароль</string>
+    <string name="enter_new_password">Введіть новий пароль</string>
+    <string name="reenter_new_password">Повторіть новий пароль</string>
+
+    <string name="download_ads_free_version">Завантажте версію без реклами</string>
+
+    <string name="todo_name_example">Спекти печиво</string>
+    <string name="todo_note_example">Cookie Monster тут!</string>
+    <string name="routine_name_example">Почистити зуби</string>
+    <string name="routine_note_example">Двічі на день</string>
+
+</resources>

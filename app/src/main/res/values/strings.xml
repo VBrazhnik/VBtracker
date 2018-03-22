@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name" translatable="false">VBtracker</string>
+
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="agenda">Agenda</string>
+    <string name="todo">ToDo</string>
+    <string name="routine">Routine</string>
+    <string name="create_new">Create New</string>
+    <string name="setting">Setting</string>
+
+    <string name="done">Done</string>
+    <string name="undone">Undone</string>
+
+    <string name="name">Name</string>
+    <string name="pick_date">Pick date</string>
+    <string name="pick_start_date">Pick start date</string>
+    <string name="pick_end_date">Pick end date</string>
+    <string name="add_note_here">Add note here…</string>
+
+    <string name="name_is_not_entered">Name is not entered</string>
+    <string name="date_is_not_selected">Date is not selected</string>
+    <string name="start_date_is_not_selected">Start date is not selected</string>
+    <string name="end_date_is_not_selected">End date is not selected</string>
+    <string name="end_date_should_go_after_start_date">End date should go after start date</string>
+    <string name="weekdays_is_not_selected">Weekdays is not selected</string>
+
+    <string name="set_day_mode">Set day mode</string>
+    <string name="set_night_mode">Set night mode</string>
+
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password_wrong">Wrong password, please try again</string>
+
+    <string name="enable_password">Enable password</string>
+    <string name="password_enabled">Password was enabled</string>
+
+    <string name="disable_password">Disable password</string>
+    <string name="password_disabled">Password was disabled</string>
+
+    <string name="change_password">Change password</string>
+    <string name="enter_current_password">Enter current password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="reenter_new_password">Re-enter new password</string>
+
+    <string name="download_ads_free_version">Download ads-free version</string>
+
+    <string name="overflow" translatable="false">+99…</string>
+
+    <string name="prefs_theme_key" translatable="false">theme</string>
+
+    <string name="manage_password" translatable="false">Manage password</string>
+
+    <string name="number_1" translatable="false">1</string>
+    <string name="number_2" translatable="false">2</string>
+    <string name="number_3" translatable="false">3</string>
+    <string name="number_4" translatable="false">4</string>
+    <string name="number_5" translatable="false">5</string>
+    <string name="number_6" translatable="false">6</string>
+    <string name="number_7" translatable="false">7</string>
+    <string name="number_8" translatable="false">8</string>
+    <string name="number_9" translatable="false">9</string>
+    <string name="number_0" translatable="false">0</string>
+
+    <string name="todo_name_example">Bake cookies</string>
+    <string name="todo_note_example">Cookie Monster is here!</string>
+    <string name="routine_name_example">Brush Teeth</string>
+    <string name="routine_note_example">Two times per day</string>
+
+</resources>

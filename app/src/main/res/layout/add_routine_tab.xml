@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:background="?attr/editTextBackground"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/input_routine_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="8"
+            android:background="@color/transparent"
+            android:ems="15"
+            android:fontFamily="sans-serif-thin"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/colorAccent"
+            android:textColorHint="?attr/colorPrimary"
+            android:textCursorDrawable="@drawable/cursor" />
+
+        <ImageView
+            android:id="@+id/color_picker_routine"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/color_picker"
+            tools:ignore="contentDescription" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            app:srcCompat="@drawable/calendar_date_start"
+            tools:ignore="contentDescription" />
+
+        <Button
+            android:id="@+id/pick_routine_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/pick_start_date"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/colorAccent" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            app:srcCompat="@drawable/calendar_date_end"
+            tools:ignore="contentDescription" />
+
+        <Button
+            android:id="@+id/pick_routine_end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/pick_end_date"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/colorAccent" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/mon"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/mon"
+            android:textOn="@string/mon" />
+
+        <ToggleButton
+            android:id="@+id/tue"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/tue"
+            android:textOn="@string/tue" />
+
+        <ToggleButton
+            android:id="@+id/wed"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/wed"
+            android:textOn="@string/wed" />
+
+        <ToggleButton
+            android:id="@+id/thu"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/thu"
+            android:textOn="@string/thu" />
+
+        <ToggleButton
+            android:id="@+id/fri"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/fri"
+            android:textOn="@string/fri" />
+
+        <ToggleButton
+            android:id="@+id/sat"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/sat"
+            android:textOn="@string/sat" />
+
+        <ToggleButton
+            android:id="@+id/sun"
+            android:layout_width="@dimen/weekday_size"
+            android:layout_height="@dimen/weekday_size"
+            android:background="@drawable/weekday"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="?attr/colorAccent"
+            android:textOff="@string/sun"
+            android:textOn="@string/sun" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/routine_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="top"
+        android:hint="@string/add_note_here"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:maxLines="20"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:textColor="?attr/colorAccent"
+        android:textColorHint="?attr/colorPrimary"
+        android:textCursorDrawable="@drawable/cursor" />
+
+</LinearLayout>

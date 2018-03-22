@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mon">PO</string>
+    <string name="tue">WT</string>
+    <string name="wed">ŚR</string>
+    <string name="thu">CZ</string>
+    <string name="fri">PI</string>
+    <string name="sat">SO</string>
+    <string name="sun">NI</string>
+
+    <string name="january">Styczeń</string>
+    <string name="february">Luty</string>
+    <string name="march">Marzec</string>
+    <string name="april">Kwiecień</string>
+    <string name="may">Maj</string>
+    <string name="june">Czerwiec</string>
+    <string name="july">Lipiec</string>
+    <string name="august">Sierpień</string>
+    <string name="september">Wrzesień</string>
+    <string name="october">Październik</string>
+    <string name="november">Listopad</string>
+    <string name="december">Grudzień</string>
+
+    <string name="agenda">Agenda</string>
+    <string name="todo">Zadania</string>
+    <string name="routine">Rutyna</string>
+    <string name="create_new">Utworzyć</string>
+    <string name="setting">Ustawienia</string>
+
+    <string name="done">Wykonane</string>
+    <string name="undone">Anulować</string>
+
+    <string name="name">Nazwa</string>
+    <string name="pick_date">Wybierz datę</string>
+    <string name="pick_start_date">Wybierz datę rozpoczęcia</string>
+    <string name="pick_end_date">Wybierz daty zakończenia</string>
+    <string name="add_note_here">Notatki…</string>
+
+    <string name="name_is_not_entered">Nazwa nie została wprowadzona</string>
+    <string name="date_is_not_selected">Data nie została wybrana</string>
+    <string name="start_date_is_not_selected">Data rozpoczęcia nie wybrana</string>
+    <string name="end_date_is_not_selected">Data zakończenia nie została wybrana</string>
+    <string name="end_date_should_go_after_start_date">Data zakończenia musi być późniejsza od daty rozpoczęcia</string>
+    <string name="weekdays_is_not_selected">Dni tygodnia nie wybrane</string>
+
+    <string name="set_day_mode">Włącz tryb dzienny</string>
+    <string name="set_night_mode">Włącz tryb nocny</string>
+
+    <string name="password">Hasło</string>
+    <string name="enter_password">Wprowadź hasło</string>
+    <string name="password_wrong">Nieprawidłowe hasło</string>
+
+    <string name="enable_password">Włącz hasło</string>
+    <string name="password_enabled">Hasło zostało zainstalowane</string>
+
+    <string name="disable_password">Wyłączyć hasło</string>
+    <string name="password_disabled">Hasło zostało wyłączone</string>
+
+    <string name="change_password">Zmień hasło</string>
+    <string name="enter_current_password">Wprowadź bieżące hasło</string>
+    <string name="enter_new_password">Wprowadź nowe hasło</string>
+    <string name="reenter_new_password">Powtórz nowe hasło</string>
+
+    <string name="download_ads_free_version">Pobierz wersję bez reklam</string>
+
+    <string name="todo_name_example">Upiec ciasteczka</string>
+    <string name="todo_note_example">Cookie Monster tutaj!</string>
+    <string name="routine_name_example">Umyć zęby</string>
+    <string name="routine_note_example">Dwa razy dziennie</string>
+
+</resources>

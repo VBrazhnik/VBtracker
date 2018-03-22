@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="?attr/background"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="?attr/background"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/background"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/dialog_icon_cancel"
+            tools:ignore="contentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="?attr/background"
+                android:padding="10dp"
+                app:srcCompat="@drawable/dialog_icon_edit"
+                tools:ignore="contentDescription" />
+
+            <ImageButton
+                android:id="@+id/trash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="?attr/background"
+                android:padding="10dp"
+                app:srcCompat="@drawable/dialog_icon_trash"
+                tools:ignore="contentDescription" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <ViewSwitcher
+        android:id="@+id/switcher2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/info_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="none"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_vertical"
+            android:scrollbarSize="2dp"
+            android:scrollbars="none"
+            android:singleLine="true"
+            android:textColor="?attr/colorAccent"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/editTextBackground"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/input_todo_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_weight="8"
+                android:ems="15"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:textColor="?attr/colorAccent"
+                android:textColorHint="?attr/colorPrimary"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/color_picker"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="2"
+                android:src="@drawable/color_picker"
+                tools:ignore="contentDescription" />
+
+        </LinearLayout>
+
+    </ViewSwitcher>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/info_date_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            app:srcCompat="@drawable/calendar_date"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/info_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:fontFamily="sans-serif-thin"
+            android:text=""
+            android:textColor="?attr/colorAccent"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+    <ViewSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/editTextBackground"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/info_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:maxLines="10"
+            android:minHeight="0dp"
+            android:minLines="0"
+            android:scrollbars="none"
+            android:text=""
+            android:textColor="?attr/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/info_note_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="top"
+            android:hint="@string/add_note_here"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:scrollbars="vertical"
+            android:textColor="?attr/colorAccent"
+            android:textColorHint="?attr/colorPrimary"
+            android:textCursorDrawable="@drawable/cursor" />
+
+    </ViewSwitcher>
+
+</LinearLayout>

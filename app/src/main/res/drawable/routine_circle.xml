@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="9dp"
+    android:height="9dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+
+    <path
+        android:fillColor="?attr/colorAccent"
+        android:strokeColor="?attr/colorAccent"
+        android:strokeWidth="1"
+        android:strokeMiterLimit="10"
+        android:pathData="M 250 2 C 386.966617958 2 498 113.033382042 498 250 C 498 386.966617958 386.966617958 498 250 498 C 113.033382042 498 2 386.966617958 2 250 C 2 113.033382042 113.033382042 2 250 2 Z" />
+</vector>

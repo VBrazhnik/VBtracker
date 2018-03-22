@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/background"
+        android:elevation="0dp"
+        android:minHeight="46dp"
+        app:contentInsetStart="1dp"
+        app:maxButtonHeight="30dp"
+        app:titleMargin="0dp">
+
+        <ImageButton
+            android:id="@+id/footer_todo"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/background"
+            android:padding="20dp"
+            android:src="@drawable/icon_todo"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/footer_agenda"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?attr/background"
+            android:focusable="false"
+            android:src="@drawable/icon_agenda"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/footer_routine"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="?attr/background"
+            android:src="@drawable/icon_routine"
+            tools:ignore="ContentDescription"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>
